@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * *create array - creates an array of chars and initializes it with a specific char
- *
+ * create_array - creates an array of chars and initializes it with
+ * a specific char
  * @size: size of array
  * @c: char to initialize array with.
  *
@@ -19,9 +19,9 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	
+
 	arr = malloc(sizeof(char) * size);
-	
+
 	/* check if malloc was successful */
 
 	if (arr == NULL)
